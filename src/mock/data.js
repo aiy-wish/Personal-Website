@@ -11,17 +11,17 @@ export const headData = {
 export const heroData = {
   title: 'Hi! My Name is',
   name: 'Ayush Chakraborty',
-  subtitle: 'Senior Computer Science Major',
+  subtitle: 'A Computer Science Graduate with a passion towards Data Science',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'About4.jpg',
-  paragraphOne: 'Undergoing BS in Computer Science at University of Maryland- College Park. Always been a "go-to" person capable of thinking out of the box and delivering solutions in challenging situations.',
+  paragraphOne: 'Recently graduated from the University of Maryland- College Park. Always been a "go-to" person capable of thinking out of the box and delivering solutions in challenging situations.',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://www.ayushc.me', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -38,10 +38,19 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
+    title: 'Stockets',
+    info: 'A user friendly, streamlit app for people interested in stocks, where one can see the predicted stock prices in future with every parameters listed.',
+    info2: 'Implemented using Python,Streamlit, Pandas, and is deployed on Heroku using CircleCI',
+    url: 'https://share.streamlit.io/aiy-wish/stockets/main/app.py',
+    repo: 'https://github.com/aiy-wish/stockets', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
     title: 'Chord Dictionary',
     info: 'Built a simple Chord Dictionary created using javascript, Howler.js, and Tonal.js which would help any music beginners or amateurs to learn about different Chord sounds.',
     info2: '',
-    url: '',
+    url: 'https://ayushc.me/',
     repo: 'https://github.com/aiy-wish/Chord-Dictionary', // if no repo, the button will not show up
   },
   {
@@ -51,7 +60,7 @@ export const projectsData = [
     info: 'Constructed a Virtual Museum for the Philips Collection Museum in D.C. as part of a research project. A Virtual Reality implementation in Museum has the potential to reach a far broader audience.',
     
     info2: 'This project presents a test‑bed and a space for experimentation for the design and evaluation of immersive experiences and architecturesbefore they are developed at full scale. Implemented using Unity, Visual Studio, C# for scripting, SDK’s like GoogleVR SDK, VRTK SDK and SteamVR SDK were used.',
-    url: '',
+    url: 'https://ayushc.me/',
     repo: 'https://github.com/aiy-wish/VR_Locomotion', // if no repo, the button will not show up
   },
 ];
