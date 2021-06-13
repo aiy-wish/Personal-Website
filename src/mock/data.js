@@ -18,7 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'About4.jpg',
-  paragraphOne: 'Recently graduated from the University of Maryland- College Park. Always been a "go-to" person capable of thinking out of the box and delivering solutions in challenging situations.',
+  paragraphOne: 'My name is Ayush Chakraborty. I’m a graduate of 2021 from the University of Maryland - College Park with a degree in Computer Science. I am most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.',
   paragraphTwo: '',
   paragraphThree: '',
   resume: 'https://www.ayushc.me', // if no resume, the button will not show up
