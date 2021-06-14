@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: 'Hi! My Name is ',
   name: 'Ayush Chakraborty',
-  subtitle: 'A Computer Science Graduate with a passion towards Data Science',
+  subtitle: 'Passionate about changing the world with technology.',
   cta: '',
 };
 
@@ -19,9 +19,9 @@ export const heroData = {
 export const aboutData = {
   img: 'About4.jpg',
   paragraphOne: 'My name is Ayush Chakraborty. I’m a graduate of 2021 from the University of Maryland - College Park with a degree in Computer Science. I am most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.ayushc.me', // if no resume, the button will not show up
+  paragraphTwo: ' ',
+  paragraphThree: ' ',
+  resume: 'https://aiy-wish.github.io/static/media/resume.98034d70.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -100,5 +100,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
 };
